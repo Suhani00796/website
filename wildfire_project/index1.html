@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Wildfire</title>
+    <!-- CHANGED: Added ../ to look outside the folder for favicon.png -->
+    <link rel="icon" type="image/png" href="../favicon.png">
+</head>
+<body bgcolor="#E6E6FA">
+    <center>
+    <!-- FIXED: Cleaned up the 'span style' syntax bug -->
+    <h1 style="background-color: yellow;">🎁Want to give you some surprise🎁</h1>
+    <hr width = "70%">
+    <!-- STAYED SAME: wildfire.html is in this same folder, so this works fine -->
+    <a href="wildfire.html" title="are you ready ?"> 
+        🎵Enjoy the music</a>
+    <br>
+    <br>
+    <!-- FIXED: Corrected the audio tag syntax (removed the extra word 'source') -->
+    <audio controls muted loop src="wildfire.mp3">
+    </audio>
+    <br>
+    <br>
+    <!-- CHANGED & FIXED: 
+         1. Corrected 'control' to 'controls' and cleaned the source tag syntax.
+         2. Added '../dream_project/' because dreamon.mp4 is now inside that other folder! -->
+    <video controls autoplay muted loop src="../dream_project/dreamon.mp4" width="300px">
+    </video>
+    <br>
+    <br>
+    <a href="mailto:ss7330@srmist.edu.in">
+        <button>email me</button>
+    </a>
+    <br>
+    <hr width = "70%">
+    <p> Made with ❤️ and questionable amount of free time</p>
+    <br>
+    <br>
+    </center>
+</body>
+</html>
